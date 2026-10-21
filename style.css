@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+h1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 20px;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    /* padding: 3rem;
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+    text-decoration-style:wavy ; */
+    text-decoration:line-through dotted blue ;
+}
+
+ol{ 
+    color: blue;
+    font-size: 1.5rem; 
+    list-style:upper-roman ;
+    padding: 5rem; 
+      
+} 
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 2rem;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: green;
+
+}
+a:hover{
+    color: red;
+    a:active{
+        color: yellow;
+    }
+}
+.link1{
+    color: red;
+}
+.link2{
+    color: blueviolet;
+
+}
+.link3{
+    color: aqua;
+    
+}
+.link4{
+    color: black; 
+}
+
+
+
+
+
+
+/* table */
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #ddd;
+} */
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {background-color: #f2f2f2; ;}
+
+th{
+    background-color: #7c06aa;
+    color: white;
+}
+
+
+
+
